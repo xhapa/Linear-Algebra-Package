@@ -1,5 +1,4 @@
-from matrix import Matrix
-
+from LinearAlgebraPackage.matrix import Matrix
 
 class Vector(Matrix):
     def __init__(self, vector):
