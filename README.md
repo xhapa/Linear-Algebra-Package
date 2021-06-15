@@ -71,4 +71,15 @@ m.transposed()
 ```
 ### Matrix multiplication and power
 
-For operate two matrices, left one should have the same number of columns that rows of the right one 
+For operate two matrices, left one should have the same number of columns that rows of the right one
+```python
+  m1 = Matrix([[1, 2, 3], [4, 5, 6], [6, 7, 8]])
+  m2 = Matrix([[1, 2, 3], [2, 3, 4], [5, 6, 7], [8, 9, 10]])
+  m3 = m2*m1
+```
+For power operation is do multiplication with same matrix but they must have the same number of rows that columns, we can use two forms first do multiplication of m*m after that result *m  or only use pow python operator.  
+```python
+  m = Matrix([[1, 2, 3], [4, 5, 6], [6, 7, 8]])
+  m3 = (m*m)*m
+  m2 = m**2
+```
