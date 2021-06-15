@@ -61,9 +61,9 @@ m = Matrix([[0, -3, 4], [3, 0, 0], [-4, 0, 0]])
 m.scalar_mul(2)
 ```
 ### Transposition
-Is transform a mxn matrix in nxm matrix, turning the rows anf the columns
+Is transform a *mxn* matrix in *nxm* matrix, turning the rows anf the columns
 
-![alt text](https://github.com/xhapa/Linear-Algebra-Package/blob/master/img/scalar_mult.gif "Scalar mult")
+![alt text](https://github.com/xhapa/Linear-Algebra-Package/blob/master/img/transposed.gif "Transposed")
 
 ```python
 m = Matrix([[0, -3, 4], [3, 0, 0], [-4, 0, 0]])
@@ -71,3 +71,4 @@ m.transposed()
 ```
 ### Matrix multiplication and power
 
+For operate two matrices, left one should have the same number of columns that rows of the right one 
